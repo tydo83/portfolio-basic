@@ -41,6 +41,6 @@
   list-style: none;
 }
 
-a:active {     
-  background-color:yellow;    
+a:visited {     
+  color: green;    
 }

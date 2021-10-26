@@ -8,24 +8,16 @@ function App() {
           Code Monkey in New York
         </h1>
         <h5>
-          (Yes~ I'm working on the homepage now.)
+          (Yes~ I'm working on my homepage now.)
         </h5>
         <p>
-          Meanwhile, if you want to see my portfolios, click the link below.  
+          Meanwhile, if you want to see my portfolios, click the link below.
         </p>
         <ul>
-        <li><a href="http://ci-final-td.surge.sh/">Calorie Tracker</a></li>
-        <li><a href="https://project1.codemonkeyinny.com/">Covid19 Statistic</a><br />(Currently unavailable)</li>
-        <li><a href="https://project2.codemonkeyinny.com/">Calorie Calculator</a></li>
-
+          <li><a href="http://ci-final-td.surge.sh/">Calorie Tracker</a></li>
+          <li><a href="https://project1.codemonkeyinny.com/">Covid19 Statistic</a>(currently unavailable)</li>
+          <li><a href="https://project2.codemonkeyinny.com/">Calorie Calculator</a></li>
         </ul>
-     
-  
-        
-    
-
-
-
       </header>
     </div>
   );
