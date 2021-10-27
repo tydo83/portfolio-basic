@@ -11,7 +11,7 @@ function App() {
           (Yes~ I'm working on my homepage now.)
         </h5>
         <p>
-          Meanwhile, if you want to see my portfolios, click the link below.
+          Meanwhile, if you want to see my portfolios, click the link below!
         </p>
         <ul>
           <li><a href="http://ci-final-td.surge.sh/">Calorie Tracker</a></li>
