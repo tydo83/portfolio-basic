@@ -5,7 +5,8 @@ import { Grid, Link } from '@mui/material';
 import './footer.css'
 
 const Footer = () => {
-  return <div className='portfolio_footer'>
+  return (
+  <div className='portfolio_footer'>
     <div className='portfolio_footer_credit'>
       <p>© Timothy Do, Code Monkey in New York</p>
     </div>
@@ -19,7 +20,8 @@ const Footer = () => {
         </Link>
       </Grid>
     </div>
-  </div>;
+  </div> 
+  )
 };
 
 export default Footer;

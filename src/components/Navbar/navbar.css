@@ -7,6 +7,11 @@
 .navbar-link a {
     text-decoration: none;
     margin: 2rem;
-    font-size: 12px;
+    font-size: 13px;
     color: black;
 }
+
+.navbar-link a:hover {
+    color:violet
+}
+
