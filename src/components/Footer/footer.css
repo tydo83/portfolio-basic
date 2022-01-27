@@ -1,0 +1,15 @@
+.portfolio_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.portfolio_footer_icons {
+    padding-right: 2rem;   
+}
+
+.portfolio_footer_credit {
+    font-size: 13px;
+    padding-right: 2rem;
+    justify-content: flex-end;
+}
