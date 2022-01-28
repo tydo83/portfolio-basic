@@ -1,10 +1,5 @@
-.portfolio_about {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.main_body {
     color: white;
-    padding: 1rem 5rem;
-    
     /* background color made by angry tools */
     /* ff 3.6+ */
     background: -moz-linear-gradient(90deg, rgba(74, 76, 80, 0.98) 0%, rgba(0, 0, 0, 1) 100%);
@@ -23,5 +18,23 @@
 
     /* global 94%+ browsers support */
     background: linear-gradient(90deg, rgba(74, 76, 80, 0.98) 0%, rgba(0, 0, 0, 1) 100%);
+    padding: 50px 100px;
 }
 
+.education {
+    margin: 10px;
+}
+
+.skills {
+    
+    margin: 10px;
+}
+
+.tech_skills {
+    list-style: inside;
+
+}
+
+.inter_skills {
+    margin: 10px;
+}
