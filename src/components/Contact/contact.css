@@ -20,15 +20,15 @@
     background: linear-gradient(90deg, rgba(74, 76, 80, 0.98) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
-.contact {
+/* .contact {
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 45vh;
-}
+} */
 
 .contact_image_size {
-   height: 400px;
+   height: 350px;
    width: 700px;
 }
 

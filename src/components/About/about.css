@@ -21,20 +21,6 @@
     padding: 50px 100px;
 }
 
-.education {
-    margin: 10px;
-}
-
-.skills {
-    
-    margin: 10px;
-}
-
-.tech_skills {
-    list-style: inside;
-
-}
-
-.inter_skills {
-    margin: 10px;
+.tech{
+    text-align: left;
 }

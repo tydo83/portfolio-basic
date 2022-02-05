@@ -1,7 +1,6 @@
 .main_body {
     display: flex;
     color: white;
-    
     /* background color made by angry tools */
     /* ff 3.6+ */
     background: -moz-linear-gradient(90deg, rgba(74, 76, 80, 0.98) 0%, rgba(0, 0, 0, 1) 100%);
@@ -20,9 +19,4 @@
 
     /* global 94%+ browsers support */
     background: linear-gradient(90deg, rgba(74, 76, 80, 0.98) 0%, rgba(0, 0, 0, 1) 100%);
-}
-
-.project_body {
-    display: flex;
-    justify-content: center;
 }
