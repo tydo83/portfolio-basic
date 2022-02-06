@@ -4,25 +4,33 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { makeStyles } from '@material-ui/core/styles';
 
-const ProjectsCard = ({img, alt, title, description}) => {
+const useStyles = makeStyles({
+    root: {
+        maxWidth: 310,
+        transition: "transform 0.15s ease-in-out",
+        "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
+    },
+})
+
+const ProjectsCard = ({ img, alt, title, address }) => {
+    const classes = useStyles();
+
     return (
-        <Card sx={{ maxWidth: 400 }}>
-            <CardActionArea>
-            <CardMedia
-                component="img"
-                height="240"
-                image={img}
-                alt={alt}
-            />
-            <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                    {title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                    {description}
-                </Typography>
-            </CardContent>
+        <Card className={classes.root}>
+            <CardActionArea href={address}>
+                <CardMedia
+                    component="img"
+                    height="240"
+                    image={img}
+                    alt={alt}
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="body1" component="div">
+                        {title}
+                    </Typography>
+                </CardContent>
             </CardActionArea>
         </Card>
     )

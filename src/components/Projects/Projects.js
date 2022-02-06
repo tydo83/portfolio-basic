@@ -5,34 +5,28 @@ import './projects.css'
 
 const projectCards = [
     {
-        img: 'img/YWE.png',
-        title: 'test',
-        description: 'test',
-        alt: 'test',
+        img: 'img/instagram.png',
+        title: 'Instagram Clone',
+        alt:'Instagram Clone Thumbnail',
+        address:'http://supreme-zoo.surge.sh/',
     },
     {
-        img: 'img/YWE.png',
-        title: 'test',
-        description: 'test',
-        alt: 'test',
+        img: 'img/covid-statistics.png',
+        title: 'Covid Statistics',
+        alt:'Covid Thumbnail',
+        address:'http://thirsty-tray.surge.sh/',
     },
     {
-        img: 'img/YWE.png',
-        title: 'test',
-        description: 'test',
-        alt: 'test',
+        img: 'img/YWE_ver.1.png',
+        title: 'Calorie Calculator ver.1',
+        alt: 'Calorie Calculator ver.1 Thumbnail',
+        address:'http://ci-final-td.surge.sh/'
     },
     {
-        img: 'img/YWE.png',
-        title: 'test',
-        description: 'test',
-        alt: 'test',
-    },
-    {
-        img: 'img/YWE.png',
-        title: 'test',
-        description: 'test',
-        alt: 'test',
+        img: 'img/YWE_ver2.png',
+        title: 'Calorie Calculator ver.2',
+        alt: 'Calorie Calculator ver.2 Thumbnail',
+        address:'http://project2.codemonkeyinny.com/'
     },
 ]
 
