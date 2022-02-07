@@ -1,7 +1,6 @@
 .portfolio_home {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     color: white;
     /* background color made by angry tools */
     /* ff 3.6+ */
@@ -24,14 +23,12 @@
 }
 
 .portfolio_home_avatar {
-    padding: 50px;
-    margin: 20px;
+    margin: 5px 25px;
 }
 
 .portfolio_home_about_me {
-    margin: 100px;
-    padding: 30px;
-    padding-top: 100px;
+    margin: 50px;
+    padding: 50px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -39,9 +36,13 @@
         display: flex;
         flex-direction: column;         
     }
+    .portfolio_home_avatar {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
     .portfolio_home_about_me {
         margin: 0px;
         padding: 30px;
-        padding-top: 100px;
     }
 }

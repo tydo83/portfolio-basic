@@ -1,15 +1,19 @@
-.App-header {
+.header {
     background-color: white;
+    height: 15vh;
     min-height: 10vh;
     font-size: calc(10px + 2vmin);
     color: black;
-    height: 18vh;
-    padding-top: 2rem;
+    padding: 2rem;
 }
 
-.App-header-link {
+.header-title {
     color: inherit;
     text-decoration: inherit;
 }
 
-
+@media only screen and (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+}

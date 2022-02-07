@@ -15,7 +15,7 @@ export default class Home extends Component {
                 <h4>
                     After I served in the Army as a nutritional care 
                     specialist, I have considered what I have to do next outside of the Army. Front-end development 
-                    was my answer. I aced the class during my cohort and realized I love to make websites from scratch.
+                    was my answer. I aced the class during my cohort and realized I love to make a website from scratch.
                     I don't have much experience yet, but I'm always ready to learn and Google.  
                 </h4>
             </div>

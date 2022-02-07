@@ -1,11 +1,10 @@
 /* Timothy Do 
-Portfolio Project 
-*/
+Portfolio Version 1 */
 
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
-//ReactRouter ver6 doesn't support switch and component 
+// ReactRouter ver6 doesn't support switch and component anymore, instead use Routes and element.
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
