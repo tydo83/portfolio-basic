@@ -14,7 +14,7 @@ const projectCards = [
         img: 'img/covid-statistics.png',
         title: 'Covid Statistics',
         alt:'Covid Thumbnail',
-        address:'http://thirsty-tray.surge.sh/',
+        address:'http://project1.codemonkeyinny.com/',
     },
     {
         img: 'img/YWE_ver.1.png',

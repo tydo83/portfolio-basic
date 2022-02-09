@@ -19,7 +19,7 @@ const ProjectsCard = ({ img, alt, title, address }) => {
 
     return (
         <Card className={classes.root}>
-            <CardActionArea href={address}>
+            <CardActionArea href={address} target={"_blank"}>
                 <CardMedia
                     component="img"
                     height="240"
