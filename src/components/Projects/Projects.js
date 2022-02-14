@@ -36,7 +36,7 @@ export default function Projects() {
         <Grid container 
             alignItems="center"
             justifyContent="center"
-            spacing={5}>
+            spacing={4}>
                 {projectCards.map((projectCards, i) => {
                     return (
                     <Grid key={i} item>

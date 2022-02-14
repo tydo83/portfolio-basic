@@ -34,6 +34,7 @@
 
 .portfolio_home_about_me_des {
     line-height: 1.5em;
+    padding-right: 24px;
 }
 
 @media only screen and (max-width: 700px) {

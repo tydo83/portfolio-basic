@@ -33,8 +33,11 @@ const Contact = () => {
         matches ? 
           <Grid item xs={4} className='contact_section'>
             <h2>Contact</h2>
-            <h5>If you have any questions about me or are looking for a freelancer, <br />
-              click the button below.</h5>
+            <h5 className='contact_section_des'>
+              If you have any questions about me <br /> 
+              or are looking for a freelancer, <br /> 
+              click the button below.
+            </h5>
             <Box>
               <Button className="button" variant="outlined" endIcon={<SendIcon />} onClick={() => window.location = 'mailto:tydo83@gmail.com'}>ContactMe</Button>
             </Box>
@@ -42,8 +45,11 @@ const Contact = () => {
         : 
           <Grid item xs={12} className='contact_section'>
             <h2>Contact</h2>
-            <h5>If you have any questions about me or are looking for a freelancer, <br />
-              click the button below.</h5>
+              <h5 className='contact_section_des'>
+                If you have any questions about me <br /> 
+                or are looking for a freelancer, <br /> 
+                click the button below.
+              </h5>
             <Box>
               <Button className="button" variant="outlined" endIcon={<SendIcon />} onClick={() => window.location = 'mailto:tydo83@gmail.com'}>ContactMe</Button>
             </Box>

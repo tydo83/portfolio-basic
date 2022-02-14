@@ -25,6 +25,10 @@
     width: 700px;
 }
 
+.contact_section_des {
+    line-height: 1.5em;
+}
+
 @media only screen and (max-width: 768px) {
     .contact_section {
         text-align: center;

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
-import { createTheme } from '@material-ui/core';
 import './header.css'
 
 export default function Header() {
