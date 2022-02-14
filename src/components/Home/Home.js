@@ -12,7 +12,7 @@ export default class Home extends Component {
             </div>
             <div className='portfolio_home_about_me'>
                 <h1>Hi, I'm Timothy,<br />Front-end Web Developer living in NYC.</h1>
-                <h4>
+                <h4 className='portfolio_home_about_me_des'>
                     After I served in the Army as a nutritional care 
                     specialist, I have considered what I have to do next outside of the Army. Front-end development 
                     was my answer. I aced the class during my cohort and realized I love to make a website from scratch.

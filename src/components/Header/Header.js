@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Typography } from '@material-ui/core';
+import { createTheme } from '@material-ui/core';
 import './header.css'
 
 export default function Header() {
@@ -16,19 +18,22 @@ export default function Header() {
     return (
         <div>
             <header className="header">
-                {   
+                {
                     matches &&
                     <NavLink to="/" className="header-title">
-                        <h1>Code Monkey in New York</h1>
+                        <Typography variant="h1">
+                            <strong>Code Monkey in New York</strong>
+                        </Typography>
                     </NavLink>
                 }
                 {
                     !matches &&
                     <NavLink to="/" className="header-title">
-                        <h1>Code Monkey<br />New York</h1>
+                        <Typography variant="h2">
+                            <b>Code Monkey New York</b>
+                        </Typography>
                     </NavLink>
                 }
-
             </header>
         </div>
     );
