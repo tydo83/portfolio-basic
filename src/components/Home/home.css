@@ -22,9 +22,20 @@
     background: linear-gradient(90deg, rgba(74, 76, 80, 0.98) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
-.portfolio_home_avatar {
-    margin: 5px 25px;
+.portfolio_home {
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.portfolio_home_avatar {
+    margin: 40px;
+    width: 80%;   
+} 
+
+/* .portfolio_home_avatar_pic {
+    width: 1500px;
+} */
 
 .portfolio_home_about_me {
     margin: 50px 200px;
@@ -45,10 +56,10 @@
     .portfolio_home_avatar {
         display: flex;
         justify-content: space-around;
-        margin: 0;
+        margin-bottom: 15px;
     }
     .portfolio_home_about_me {
         margin: 0px;
         padding: 30px;
     }
-}
+} 

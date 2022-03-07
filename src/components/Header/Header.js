@@ -20,7 +20,7 @@ export default function Header() {
                 {
                     matches &&
                     <NavLink to="/" className="header-title">
-                        <Typography variant="h1">
+                        <Typography variant="h2">
                             <strong>Code Monkey in New York</strong>
                         </Typography>
                     </NavLink>
